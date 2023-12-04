@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "plugins": [
+      "expo-notifications"
+    ],
+    "scheme": "myapp",
+    "name": "hukuyakumamorukun",
+    "slug": "ver1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "useNextNotificationsApi": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.hukuyakumamorukun.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55ae9311-d4b0-4e89-9547-28f79dc466a7"
+      }
+    }
+  }
+}
